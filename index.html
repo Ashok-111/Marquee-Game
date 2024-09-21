@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marquee Game</title>
+
+    <style>
+      .main {
+        text-align: center;
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 style="font-size: 40px; color: blueviolet; text-align: center">
+      Marquee Game
+    </h1>
+    <div class="main">
+      <marquee id="Mark" direction="right" loop="" scrollamount="20">
+        <img src="giphy.gif" alt="Moving Image" />
+      </marquee>
+      <br />
+
+      <input class="but" type="button" onclick="Mark.start()" value="Let's Go" />
+      <input class="but" type="button" onclick="Mark.stop()" value="Ruk Jaa" />
+    </div>
+  </body>
+</html>
